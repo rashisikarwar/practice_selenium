@@ -34,6 +34,7 @@ public class openBrowser {
 		
 		driver.manage().window().fullscreen();
 		
+		
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
 		
